@@ -38,4 +38,3 @@ laml.sign <- extractSignatures(mat = laml.tnm, plotBestFitRes = FALSE)
 \seealso{
 \code{\link{trinucleotideMatrix}} \code{\link{plotSignatures}}
 }
-
