@@ -1,5 +1,9 @@
 CHANGES IN VERSION 1.4.25
  -------------------------
+    o Bioconductor minor build warning fix
+
+CHANGES IN VERSION 1.4.25
+ -------------------------
     o Fix messed up vignette for real
     o fix gistic plotting bug
     o bold font faces for plots
