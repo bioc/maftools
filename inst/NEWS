@@ -1,4 +1,13 @@
-CHANGES IN VERSION 1.4.25
+CHANGES IN VERSION 1.4.27
+ -------------------------
+    o Bioconductor minor build warning fix
+    o Bug fix in somatic interactions plot. Issue: #135
+
+CHANGES IN VERSION 1.4.26
+ -------------------------
+    o Bioconductor minor build warning fix
+
+CHANGES IN VERSION 1.4.26
  -------------------------
     o Bioconductor minor build warning fix
 
@@ -19,7 +28,7 @@ BUG FIXES
     o Bug fix in icgcSimpleMutationToMAF while converting ICGC maf to MAF object in. Issue: #105
     o Bug fix in oncomatrix function which earlier failed drop missing factors as well as resulted in error with zero samples. Issue: #96
     o Bug fix in mafCompare and forestPlot
-    o Bug fix in mutSig file parsing. Issue: 120
+    o Bug fix in mutSig file parsing. Issue: #120
 
 IMPROVEMENTS
     o Add keepGeneOrder argument to coOncoplot. PR: #107

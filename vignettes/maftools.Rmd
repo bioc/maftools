@@ -283,7 +283,7 @@ Many disease causing genes in cancer are co-occurring or show strong exclusivene
 
 ```{r, message=FALSE}
 #We will run mutExclusive on top 10 mutated genes. 
-somaticInteractions(maf = laml, top = 25, pvalue = 0.1)
+somaticInteractions(maf = laml, top = 25, pvalue = c(0.05, 0.1))
 ```
 
 We can visualize the above results using `oncostrip`. For example, in above analysis, gene set TP53, FLT3 and RUNX1 show a strong exclusiveness with each other a p-value of 4.8e-5. 
