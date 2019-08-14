@@ -1,7 +1,8 @@
 CHANGES IN VERSION 2.0.16
 -------------------------
-    o Minor bug fix in extractSignatures. Issue #369
+    o Typo fix and added argument `geneOrder` to somaticInteractions. Issue #373
     o Added argument ens2hugo to annovarToMaf. Issue #372
+    o Minor bug fix in extractSignatures. Issue #369
 
 CHANGES IN VERSION 2.0.15
 -------------------------
