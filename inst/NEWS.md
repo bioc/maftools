@@ -1,11 +1,4 @@
-# CHANGES IN VERSION 2.4.15 (In development)
-## BUG REPORTS
-
-## ENHANCEMENTS
-- Added `sampleOrder1` and `sampleOrder2` arguments to `coOncoplot`. Issue: [592](https://github.com/PoisonAlien/maftools/issues/592)
-- Added `filterMaf` function. 
-
-# CHANGES IN VERSION 2.4.10 (Release/Bioconductor version)
+# CHANGES IN VERSION 2.4.12 (Release/Bioconductor version)
 ## BUG FIXES
 - Fix issue reversed colors in `somaticInteractions`. Setting `limitColorBreaks = TRUE` by default for the fix. Issue: [589](https://github.com/PoisonAlien/maftools/issues/589)
 - Fix issue with non-numeiric error in `math.score`. Issue: [429](https://github.com/PoisonAlien/maftools/issues/429)
